@@ -37,8 +37,8 @@ public class Near extends MainActivity {
     public void getCurrentLocation(View view) {
         mGoogleApiClient = new GoogleApiClient.Builder(this)
                 .addApi(LocationServices.API)
-                .addConnectionCallbacks(this)
-                .addOnConnectionFailedListener(this)
+                .addConnectionCallbacks((GoogleApiClient.ConnectionCallbacks) this)
+                .addOnConnectionFailedListener((GoogleApiClient.OnConnectionFailedListener) this)
                 .build();
         mGoogleApiClient.connect();
     }

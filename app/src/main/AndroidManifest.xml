@@ -22,7 +22,11 @@
         <activity android:name=".MetroBus" />
         <activity android:name=".Favorites" />
         <activity android:name=".MetroRail" />
-        <activity android:name=".MetroMap"></activity>
+        <activity android:name=".MetroMap" />
+        <activity android:name=".RouteStations" />
+        <activity android:name=".RouteSchedule" />
+        <activity android:name=".BusStopSchedule" />
+        <activity android:name=".RealTimeSchedule"></activity>
     </application>
 
 </manifest>

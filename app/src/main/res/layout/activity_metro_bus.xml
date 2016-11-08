@@ -9,4 +9,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="dcmetro.ss.com.dcmetro.MetroBus">
 
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:id="@+id/list" />
 </RelativeLayout>
